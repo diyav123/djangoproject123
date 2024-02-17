@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<table class="table table-bordered">
+    <tr>
+        <th>EMPLOYEE NAME</th>
+        <td>{{k.employee_name}}</td>
+    </tr>
+    <tr>
+        <th>CATEGORY NAME</th>
+        <td>{{k.category_name}}</td>
+    </tr>
+    <tr>
+        <th>PLACE</th>
+        <td>{{k.place}}</td>
+    </tr>
+    <tr>
+        <th>MOBILE NUMBER</th>
+        <td>{{k.mobile_number}}</td>
+    </tr>
+</table>
+
+{% endblock %}
